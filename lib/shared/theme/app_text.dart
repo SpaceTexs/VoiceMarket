@@ -8,7 +8,7 @@ class TextExtension {}
 
 extension TextExt on Text {
   Text get label => Text(
-        this.data!,
+        data!,
         style: AppTheme.textStyles.label,
       );
 }
