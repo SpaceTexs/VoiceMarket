@@ -12,7 +12,7 @@ class _ScreenButtomsState extends State<ScreenButtoms> {
   Widget build(BuildContext context) {
     return Center(
       child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
             Card(
@@ -23,8 +23,8 @@ class _ScreenButtomsState extends State<ScreenButtoms> {
                   debugPrint('Card tapped.');
                 },
                 child: const SizedBox(
-                  // width: 500,
-                  // height: 250,
+                  width: 500,
+                  height: 250,
                   child: Text('A card that can be tapped'),
                 ),
               ),
@@ -37,8 +37,8 @@ class _ScreenButtomsState extends State<ScreenButtoms> {
                   debugPrint('Card tapped.');
                 },
                 child: const SizedBox(
-                  //  width: 500,
-                  //  height: 250,
+                  width: 500,
+                  height: 250,
                   child: Text('A card that can be tapped'),
                 ),
               ),
@@ -51,8 +51,8 @@ class _ScreenButtomsState extends State<ScreenButtoms> {
                   debugPrint('Card tapped.');
                 },
                 child: const SizedBox(
-                  //  width: 500,
-                  //   height: 250,
+                  width: 500,
+                  height: 250,
                   child: Text('A card that can be tapped'),
                 ),
               ),
@@ -65,8 +65,8 @@ class _ScreenButtomsState extends State<ScreenButtoms> {
                   debugPrint('Card tapped.');
                 },
                 child: const SizedBox(
-                  //  width: 500,
-                  //  height: 250,
+                  width: 500,
+                  height: 250,
                   child: Text('A card that can be tapped'),
                 ),
               ),
